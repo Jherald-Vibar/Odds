@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header>
         <nav className='flex flex-row min-w-screen justify-between items-center px-10'>
-            <img src={logos[0].src} className='w-[150px] h-20' alt={logos[0].name} />
+            <img src={logos[0].src} className='w-[130px] h-20' alt={logos[0].name} />
 
             <ul className="flex flex-row gap-3">
                 {navLinks.map((link) => (
