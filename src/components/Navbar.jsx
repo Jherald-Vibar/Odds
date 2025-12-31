@@ -4,7 +4,7 @@ import { logos, navLinks } from '../constants'
 const Navbar = () => {
   return (
     <header>
-        <nav className='flex flex-row min-w-screen justify-between items-center px-10'>
+        <nav className='flex flex-row fixed z-1 bg-gray-100 min-w-screen justify-between items-center px-10 border-b border-black'>
             <img src={logos[0].src} className='w-[130px] h-20' alt={logos[0].name} />
 
             <ul className="flex flex-row gap-3">
