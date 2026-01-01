@@ -14,7 +14,7 @@
     }, []);
 
     return (
-        <section className='flex h-[500px] px-3 py-3 overflow-hidden border-b-2 border-gray-400'>
+        <section className='flex min-h-screen px-3 py-3 overflow-hidden border-b-2 border-gray-400'>
             <div className='w-1/2 flex flex-col justify-center items-center'>
                 <div className="box">
                     <div className="face front"></div>
